@@ -349,7 +349,9 @@ You will likely need a few attempts to fine-tune the width and height of the out
 ```{r}
 ggsave(
   "superplot.pdf",
-  super_plot
+  super_plot,
+  width = 7,
+  height = 7
 )
 ```
 
